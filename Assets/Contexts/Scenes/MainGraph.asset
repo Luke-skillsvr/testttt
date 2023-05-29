@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d50089a84c4922b85260769155e56f, type: 3}
+  m_Name: MainGraph
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - rid: 1318540093968089092
+  - rid: 1318540093968089093
+  - rid: 1318540093968089094
+  edges:
+  - GUID: 938a7244-d86f-4296-bc1c-53fea9649dfd
+    owner: {fileID: 11400000}
+    inputNodeGUID: fd6baf7a-2c98-4b40-8edd-1703af3bb4b8
+    outputNodeGUID: 90f4786f-3f39-4065-a5e5-cfe5839e9805
+    inputFieldName: executed
+    outputFieldName: executes
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 304, y: 41, z: 0}
+  scale: {x: 1.15, y: 1.15, z: 1}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1318540093968089092
+      type: {class: StartNode, ns: SkillsVRNodes.Scripts.Nodes, asm: NodeAssemblyDefinitionRuntime}
+      data:
+        nodeCustomName: 
+        GUID: 90f4786f-3f39-4065-a5e5-cfe5839e9805
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 1318540093968089093
+      type: {class: EndNode, ns: SkillsVRNodes.Scripts.Nodes, asm: NodeAssemblyDefinitionRuntime}
+      data:
+        nodeCustomName: 
+        GUID: c93c076a-dd7f-46eb-b98b-0c1c5dc5c043
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 400
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+    - rid: 1318540093968089094
+      type: {class: SceneNode, ns: SkillsVRNodes.Scripts.Nodes, asm: NodeAssemblyDefinitionRuntime}
+      data:
+        nodeCustomName: 
+        GUID: fd6baf7a-2c98-4b40-8edd-1703af3bb4b8
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 160
+          y: 174
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        scenePath: 
+        additiveScenePaths: []
+        lightingScene: 
